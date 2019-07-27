@@ -1,0 +1,108 @@
+body{
+    background:url(images/palm.jpg);
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*.base{
+    background-color: whitesmoke;
+    width:100%;
+    height:500px;
+}*/
+
+.side{
+  background-color:#ffffff;
+  height:1000px;
+  position: absolute;
+  z-index:5;
+
+}
+.menu{
+    margin-top:20px;
+    box-shadow: 10px 10px 10px  #eee;
+}
+.profimage{
+    margin-top:30px;
+    
+}
+.pic{
+    text-align:center;
+}
+.profimage img{
+    border-radius:50px;
+    height:120px;
+    width:auto;
+    
+}
+/*
+.homeName{
+    background-color:white;
+    width:50%;
+    height:30%;
+    float:right;
+    margin-top:200px;
+    margin-right: 250px;
+}
+*/
+.homeName{
+background-color:white;
+width:600px;
+height:300px; 
+text-align: center;
+float:right; 
+margin-left:50px;
+margin-top:160px;
+border:5px solid #2f4f4f;
+}
+
+li.item{
+    background-color: #ffffff;
+    font-size:18px;
+    font-weight:400;
+    padding:10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;    
+}
+
+
+
+a{
+    color:#040f65;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+  a:hover{
+    
+    color:#020a49;
+
+}
+ul{
+    
+    list-style: none;
+    margin:0;
+    padding:0;
+   /* position:sticky;*/
+}
+.menu-item{
+font-size:15px;
+text-align: center;
+color:#040f65;
+}
+.spinny {
+    -webkit-transform: rotateY(150deg); /* Safari prior 9.0 */
+  transform: rotateY(150deg); /* Standard syntax */
+  transition: .8s all;
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
